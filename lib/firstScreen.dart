@@ -105,7 +105,6 @@ class FirstScreen extends StatelessWidget {
               child: SizedBox(
                 height: MediaQuery.of(context).size.height * 0.4,
                 width: MediaQuery.of(context).size.width * 0.85,
-                //height: 250,
                 child: ListView(
                   scrollDirection: Axis.vertical,
                   children: const [
@@ -205,7 +204,6 @@ class ImageHorizontal extends StatelessWidget {
             SizedBox(
               width: MediaQuery.of(context).size.width * 0.45,
               child: Column(
-                /*mainAxisAlignment: MainAxisAlignment.spaceBetween,*/
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   const SizedBox(
@@ -224,7 +222,6 @@ class ImageHorizontal extends StatelessWidget {
             SizedBox(
               width: MediaQuery.of(context).size.width * 0.33,
               child: Column(
-                //mainAxisAlignment: MainAxisAlignment.end,
                 crossAxisAlignment: CrossAxisAlignment.end,
                 children: [
                   const SizedBox(
